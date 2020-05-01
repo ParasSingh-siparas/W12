@@ -16,7 +16,7 @@ namespace Customer_Orders.Controllers
         }
 
         [HttpPost]
-        public IActionResult SaveOrder(Order order)
+        public IActionResult Save(Order order)
         {
             return Json(order);
         }

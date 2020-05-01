@@ -104,3 +104,4 @@ D:\Libraries\Documents\C#\Week11\W12\Customer_Orders\Customer_Orders\obj\Debug\n
 D:\Libraries\Documents\C#\Week11\W12\Customer_Orders\Customer_Orders\obj\Debug\netcoreapp2.2\Customer_Orders.pdb
 D:\Libraries\Documents\C#\Week11\W12\Customer_Orders\Customer_Orders\obj\Debug\netcoreapp2.2\Customer_Orders.genruntimeconfig.cache
 D:\Libraries\Documents\C#\Week11\W12\Customer_Orders\Customer_Orders\obj\Debug\netcoreapp2.2\Customer_Orders.csproj.CopyComplete
+D:\Libraries\Documents\C#\Week11\W12\Customer_Orders\Customer_Orders\obj\Debug\netcoreapp2.2\Razor\Views\Customers\Orders.cshtml.g.cs

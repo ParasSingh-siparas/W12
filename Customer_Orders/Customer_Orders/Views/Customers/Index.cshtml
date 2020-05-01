@@ -6,13 +6,13 @@
 
 <table class="table table-striped">
     <thead>
-    <tr>
-        <th scope="col">#</th>
-        <th scope="col">Customer Name</th>
-        <th scope="col">Customer Email</th>
-        <th scope="col">Actions</th>
-        <th scope="col">Orders</th>
-    </tr>
+        <tr>
+            <th scope="col">#</th>
+            <th scope="col">Customer Name</th>
+            <th scope="col">Customer Email</th>
+            <th scope="col">Actions</th>
+            <th scope="col">Orders</th>
+        </tr>
     </thead>
     <tbody>
         @foreach (var customer in Model)
@@ -21,8 +21,8 @@
                 <th scope="row">@i</th>
                 <td>@customer.Name</td>
                 <td>@customer.Email</td>
-                <td>Edit | Delete | View</td>
-                <td>View Orders | Create Order</td>
+                <td><a href="/Customers/Edit/@customer.Id">Edit</a> | <a href="/Customers/Delete/@customer.Id">Delete</a> | View</td>
+                <td><a href="/Customers/Order/@customer.Id">View Order</a> | <a href="/Customers/CreateOrder/@customer.Id">Create Order</a></td>
             </tr>
             i = i + 1;
         }
