@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "NewProduct";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>NewProduct</h1>
+
+<form asp-action="SaveProduct">
+    <input type="text" name="productTitle" />
+    <input type="submit" />
+</form>
